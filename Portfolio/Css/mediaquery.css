@@ -1,0 +1,23 @@
+@media only screen and (max-width:768px){
+    #Secondpage .allimg > .img-content {
+        width: 100% !important;
+    }
+    #Secondpage .allimg > .img-content .mainContent{
+        width: 100% !important;
+    }
+    #Firstpage .image>img{
+        padding:15px;
+      }
+    footer .allfooter{
+          padding:0px 45px;
+      }
+      #Secondpage .titles>h3{
+          margin-left:12px;
+      }
+      #Secondpage .titles{
+         border:none;
+      }
+      #Secondpage .titles>div{
+          margin-right:12px;
+      }
+}

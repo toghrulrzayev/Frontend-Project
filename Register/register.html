@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" type="text/css" href="Css/register.css">
+    <link rel="stylesheet" type="text/css" href="Css/mediaquery.css">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <div class="container-fluid">
+            <div class="row title">
+                <div class="offset-md-1 col-md-5  offset-0 col-sm-12 barLeft">
+                    <p>Customer Care</p>
+                    <span>(888) 123-4567</span>
+                </div>
+                <div class="offset-md-3 col-md-3 offset-0 col-sm-12 barRight">
+                    <ul>
+                        <li>Login |</li>
+                        <li>Registr |</li>
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-google-plus-g"></i></li>
+                        <li><i class="fab fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bars">
+            <div class="navbar">
+                <div class="row allrow">
+                    <div class="offset-md-1 col-md-2 offset-0 col-sm-2 name">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                        <h2>Hasta</h2>
+                    </div>
+                    <div class="col-md-9 offset-0 col-sm-10 topnav" id="myTopnav">
+                        <a href="../About/about.html" class="active dropdown">About
+                            <ul class="hovered">
+                                <li>Link1</li>
+                                <li>Link2</li>
+                                <li>Link3</li>
+                            </ul>
+                        </a>
+                        <a href="../Blog/blog.html" class="dropdown">Blog
+                            <ul class="hovered">
+                                <li>Link1</li>
+                                <li>Link2</li>
+                                <li>Link3</li>
+                            </ul>
+                        </a>
+                        <a href="../Index/index.html" class="dropdown">Index
+                            <ul class="hovered">
+                                <li>Link1</li>
+                                <li>Link2</li>
+                                <li>Link3</li>
+                            </ul>
+                        </a>
+                        <a href="../Careers/careers.html" class="dropdown">Careers
+                            <ul class="hovered">
+                                <li>Link1</li>
+                                <li>Link2</li>
+                                <li>Link3</li>
+                            </ul>
+                        </a>
+                        <a href="../Contact/contact.html" class="dropdown">Contact
+                            <ul class="hovered">
+                                <li>Link1</li>
+                                <li>Link2</li>
+                                <li>Link3</li>
+                            </ul>
+                        </a>
+                        <a href="../Faq/faq.html" class="dropdown">Faq
+                            <ul class="hovered">
+                                <li>Link1</li>
+                                <li>Link2</li>
+                                <li>Link3</li>
+                            </ul>
+                        </a>
+                        <a href="../Portfolio/portfolio.html" class="dropdown">Portfolio
+                            <ul class="hovered">
+                                <li>Link1</li>
+                                <li>Link2</li>
+                                <li>Link3</li>
+                            </ul>
+                        </a>
+                        <a href="../Register/register.html" class="dropdown">Register
+                            <ul class="hovered">
+                                <li>Link1</li>
+                                <li>Link2</li>
+                                <li>Link3</li>
+                            </ul>
+                        </a>
+                        <a href="../Services/services.html" class="dropdown">Services
+                            <ul class="hovered">
+                                <li>Link1</li>
+                                <li>Link2</li>
+                                <li>Link3</li>
+                            </ul>
+                        </a>
+                        <a href="../Team/team.html" class="dropdown">Team
+                            <ul class="hovered">
+                                <li>Link1</li>
+                                <li>Link2</li>
+                                <li>Link3</li>
+                            </ul>
+                        </a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header END -->
+
+    <!-- Main Start -->
+    <main>
+        <section id="Firstpage">
+            <div class="image">
+                <img src="Images/header-img.jpg" alt="212">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 info">
+                        <h2>WE ARE HASTA</h2>
+                        <h5>GET MANY MORE FEATURES</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Secondpage">
+            <div class="container">
+                <div class="row register">
+                    <div class="col-md-7 forms">
+                        <h2>Registretion Form</h2>
+                        <form name="myForm" onsubmit="return validateForm()">
+                            <div class="row firstrow">
+                                <div class="col-md-12 input-title">
+                                    <span>Your names</span>
+                                </div>
+                                <div class="col-md-6 inputs">
+                                    <input type="text" name="firstName" placeholder="First name...">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="col-md-6 inputs">
+                                    <input type="text" name="lastName" placeholder="Last name...">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="row secondrow">
+                                <div class="col-md-12 input-title">
+                                    <span>Choose your username</span>
+                                </div>
+                                <div class="col-md-12 inputs">
+                                    <input type="text" name="userName" placeholder="john-doe">
+                                    <span>.envato.com</span>
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="row thirdrow">
+                                <div class="col-md-12 input-title">
+                                    <span>Create a password</span>
+                                </div>
+                                <div class="col-md-12 inputs">
+                                    <input type="text" name="password">
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                            </div>
+                            <div class="row thirdrow">
+                                <div class="col-md-12 input-title">
+                                    <span>Confirm your password</span>
+                                </div>
+                                <div class="col-md-12 inputs">
+                                    <input type="text" name="replacePassword">
+                                    <i class="fas fa-unlock"></i>
+                                </div>
+                            </div>
+                            <div class="row fourrow">
+                                <div class="col-md-12 input-title">
+                                    <span>Your birthday</span>
+                                </div>
+                                <div class="col-md-4 inputs">
+                                    <select>
+                                        <option value="audi" selected>01-Jan</option>
+                                        <option value="volvo">02-Fev</option>
+                                        <option value="saab">03-Mar</option>
+                                        <option value="vw">04-Apr</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4 inputs">
+                                    <input type="text" placeholder="Day...">
+                                </div>
+                                <div class="col-md-4 inputs">
+                                    <input type="text" placeholder="Year...">
+                                </div>
+                            </div>
+                            <div class="row fiverow">
+                                <div class="col-md-12 input-title">
+                                    <span>Location</span>
+                                </div>
+                                <div class="col-md-12 inputs">
+                                    <select>
+                                        <option value="audi" selected>Select-Country</option>
+                                        <option value="volvo">Azerbaycan</option>
+                                        <option value="saab">Algeria</option>
+                                        <option value="vw">Andora</option>
+                                        <option value="saab">Argentina</option>
+                                        <option value="vw">Portuqaliya</option>
+                                        <option value="saab">Ispaniya</option>
+                                        <option value="vw">Fransa</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row fiverow">
+                                <div class="col-md-12 input-title">
+                                    <span>Gender</span>
+                                </div>
+                                <div class="col-md-12 inputs">
+                                    <select>
+                                        <option value="audi" selected>I am...</option>
+                                        <option value="volvo">Male</option>
+                                        <option value="saab">Female</option>
+                                        <option value="vw">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row sixrow">
+                                <div class="col-md-12 input-title">
+                                    <span>Your email address</span>
+                                </div>
+                                <div class="col-md-12 inputs">
+                                    <input type="text" name="email" placeholder="example@domain.com...">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                            </div>
+                            <div class="row sixrow">
+                                <div class="col-md-12 input-title">
+                                    <span>Mobile phone</span>
+                                </div>
+                                <div class="col-md-12 inputs">
+                                    <input type="text" name="mobilePhone" placeholder="+256">
+                                    <i class="fas fa-phone-square"></i>
+                                </div>
+                            </div>
+                            <div class="row sevenrow">
+                                <div class="col-md-12 check">
+                                    <input type="checkbox">
+                                    <p> Agree to our <span>terms of service</span></p>
+                                </div>
+                            </div>
+                            <button class="submit" type="submit">Create Account</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <!-- Main END -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container allfooter">
+            <div class="row">
+                <div class="col-md-3 col-sm-12  adress">
+                    <div>
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                        <h2>Hasta</h2>
+                    </div>
+                    <ul>
+                        <li>Address: No.28 - 63739 street lorem ipsum City, Country</li>
+                        <li><i class="fas fa-home"></i> Phone: + 1 (234) 567 8901</li>
+                        <li><i class="fas fa-phone"></i> Phone: + 1 (234) 567 8901</li>
+                        <li><i class="fas fa-fax"></i> Fax: + 1 (234) 567 8901</li>
+                        <li><i class="fas fa-envelope"></i> Email: support@yoursite.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12 posts">
+                    <h2>RECENT POSTS</h2>
+                    <p> </p>
+                    <div class="first">
+                        <img src="images/image9.jpg" alt="232">
+                        <a href="#">Clean And Modern</a>
+                        <p>Lorem ipsum dolor sit
+                            By John Doe May 15</p>
+                    </div>
+                    <div>
+                        <img src="images/image10.jpg" alt="232">
+                        <a href="#">Clean And Modern</a>
+                        <p>Lorem ipsum dolor sit
+                            By John Doe May 15</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 links">
+                    <h2>TAGS</h2>
+                    <p> </p>
+                    <div class="firstrow">
+                        <div>
+                            <a href="#">Animation</a>
+                        </div>
+                        <div>
+                            <a href="#">Art</a>
+                        </div>
+                    </div>
+                    <div class="secondrow">
+                        <div>
+                            <a href="#">Photografy</a>
+                        </div>
+                        <div>
+                            <a href="#">Design</a>
+                        </div>
+                    </div>
+                    <div class="thirdrow">
+                        <div>
+                            <a href="#">Responsive</a>
+                        </div>
+                        <div>
+                            <a href="#">Develop</a>
+                        </div>
+                    </div>
+                    <div class="fourrow">
+                        <div>
+                            <a href="#">Branding</a>
+                        </div>
+                        <div>
+                            <a href="#">Clean</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3  col-sm-12 usefullinks">
+                    <h2>USEFUL LINKS</h2>
+                    <p> </p>
+                    <ul>
+                        <li><i class="fas fa-angle-right"></i> Placerat bibendum</li>
+                        <li><i class="fas fa-angle-right"></i> Ullamcorper odio nec turpis</li>
+                        <li><i class="fas fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</li>
+                        <li><i class="fas fa-angle-right"></i> Lobortis enim nec nisi</li>
+                        <li><i class="fas fa-angle-right"></i> Placerat bibendum</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid end">
+            <div class="row">
+                <div class="col-md-12 icons">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fas fa-basketball-ball"></i>
+                    <i class="fab fa-wordpress"></i>
+                    <i class="fab fa-android"></i>
+                </div>
+                <div class="col-md-12 author">
+                    <p>Copyright &copy; 2015 l yourdomain.com. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer END -->
+
+    <script src="Js/register.js"></script>
+</body>
+
+</html>

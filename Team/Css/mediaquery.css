@@ -1,0 +1,29 @@
+@media screen and (max-width:768px){
+
+    #Firstpage .image>img{
+        padding:15px;
+    }
+    footer .allfooter{
+        padding:0px 45px;
+    }
+    #Thirdpage .section-name>p{
+        width:100%;
+    }
+    #Thirdpage .image-content{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #Thirdpage .image-content .content{
+        width:262px;
+    }
+    #Thirdpage .image-contentcolor{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

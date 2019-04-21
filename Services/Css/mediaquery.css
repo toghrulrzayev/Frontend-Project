@@ -1,0 +1,36 @@
+
+@media screen and (max-width:768px){
+
+    #Firstpage .image>img{
+        padding:15px;
+    }
+    footer .allfooter{
+        padding:0px 45px;
+    }
+    #Fifthpage .cardss{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top:25px;
+    }
+    #Sixpage .cardinfo{
+        margin-top:25px;
+    }
+    #Secondpage .content .right-aside>li{
+        width:100%;
+    }
+    #Thirdpage .inform{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #Thirdpage .inform>i{
+        width:65px;
+        height:65px;
+       margin-bottom:15px;
+    }
+}

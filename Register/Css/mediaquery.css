@@ -1,0 +1,22 @@
+@media only screen and (max-width:768px){
+
+    #Firstpage .image>img{
+        padding:15px;
+      }
+      #Firstpage .info>h2, .info>h5{
+          font-size:13px;
+      }
+    footer .allfooter{
+          padding:0px 45px;
+      }
+    #Secondpage .inputs>i{
+        margin-left:12px;
+      }
+      #Secondpage .firstrow>.inputs>i{
+        left:12px!important;
+    }
+    #Secondpage .forms>form .secondrow .inputs>span{
+        font-size:12px;
+    }
+
+}
