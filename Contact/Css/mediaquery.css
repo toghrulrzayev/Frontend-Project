@@ -1,0 +1,10 @@
+@media only screen and (max-width:768px){
+
+    #Firstpage .image>img{
+      padding:15px;
+    }
+    footer .allfooter{
+        padding:0px 45px;
+    }
+
+}

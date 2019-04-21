@@ -1,0 +1,68 @@
+@media only screen and (max-width:768px){
+    #Secondpage .about .image-content .content>p{
+        width:100%; 
+    }
+    #Thirdpage .rightaside{
+        position: static;
+        /* left:20%; */
+        left:0;
+    }
+    #Sevenpage .rightaside{
+        position: static;
+    }
+    #Tenpage .numberinfo .img-content>p{
+        width:100%;
+    }
+    #Tenpage .numberinfo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .titles>h3{
+      text-align: center;
+    }
+    .navbar {
+        width:100%;
+        padding:10px 23px;
+    }
+    #Sixpage .cardss {
+        padding: 0px;
+    }
+    #Sevenpage .rightaside .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #Sevenpage .rightaside .content .icons-inf{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #Ninepage .letter>p{
+        padding:3px;
+        text-align: center;
+    }
+    #Fourteen .slider .all-slider .first-item .info>p{
+        width:90%;
+    }
+    #Twelvepage .background .img-info>h2{
+        font-size:50px;
+    }
+    #Eightpage .img-hover {
+        padding-left:11px;
+    }
+    #Eightpage .img-hover .hidden{
+        left:11px;
+    }
+    footer  .allfooter{
+        padding:0px 35px;
+
+    }
+}
+
+/* slider */

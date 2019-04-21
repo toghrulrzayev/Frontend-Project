@@ -1,0 +1,40 @@
+@media only screen and (max-width:768px){
+    .navbar {
+        width:100%;
+        padding:10px 23px;
+    }
+    #Secondpage .about>p{
+        width:100%;
+    }
+    #Fourthpage .slider .all-slider .first-item .info{
+        width:70%;
+    }
+    #Fourthpage .slider .all-slider .first-item .img-info{
+        width:70%;
+    }
+    #Firstpage .image>img{
+        padding:15px;
+    }
+    #Thirdpage .background .img-info>p{
+        width:100%;
+    }
+    #Fourthpage .skills{
+        padding:0px 40px;
+    }
+    #Fourthpage .slider{
+        padding:0px 40px;
+    }
+    #Fourthpage .slider .all-slider .icons{
+        left:35%;
+        bottom:8%;
+    }
+    #Fifthpage .ourteam>p{
+        width:100%;
+    }
+    #Fifthpage .allimg{
+        padding:0 25px;
+    }
+    footer .allfooter{
+        padding:0px 35px;
+    }
+}
